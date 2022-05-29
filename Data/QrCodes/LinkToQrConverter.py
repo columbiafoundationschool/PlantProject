@@ -1,7 +1,7 @@
 import qrcode
 
-url = "https://columbiafoundationschool.github.io/PlantProject/Website/neem/neem.html"
+url = "https://columbiafoundationschool.github.io/PlantProject/Website/giloy/giloy.html"
 
 img = qrcode.make(url)
 
-img.save('neem.png')
+img.save('giloy.png')
