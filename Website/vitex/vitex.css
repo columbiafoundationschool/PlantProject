@@ -55,7 +55,7 @@ p{
 }
 
 @media (min-width: 540px) and (max-width: 800px){
-    .Heading{
+    .heading{
         font-size: 2.1rem;
     }
 
@@ -67,7 +67,7 @@ p{
 }
 
 @media (min-width: 801px) and (max-width: 1000px){
-    .Heading{
+    .heading{
         font-size: 3.2rem;
     }
 
@@ -79,7 +79,7 @@ p{
 }
 
 @media (min-width: 1000px) and (max-width: 1150px){
-    .Heading{
+    .heading{
         font-size: 4.3rem;
     }
 
@@ -91,7 +91,7 @@ p{
 }
 
 @media (min-width: 1051px) and (max-width: 1400px){
-    .Heading{
+    .heading{
         font-size: 4.3rem;
     }
 
@@ -103,7 +103,7 @@ p{
 }
 
 @media (min-width: 1510px) {
-    .Heading{
+    .heading{
         font-size: 5.4rem;
     }
 
