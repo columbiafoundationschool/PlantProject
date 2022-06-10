@@ -31,15 +31,17 @@ html{
     color: var(--text);
 }
 
+span {
+    margin:auto;
+    display: table;
+}
+
 .box{
     margin: 1rem 0rem 1rem 0rem;
     border: 0.5rem solid var(--background);
     box-shadow: 0.07rem 0.25rem 0.25rem 0.07rem var(--border);
     border-radius: 1rem;
     border-width: 2rem;
-    
-    text-align: center;
-
 }
 
 .box:hover{
