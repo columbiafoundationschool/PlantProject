@@ -1,7 +1,11 @@
 import qrcode
 
-url = "https://columbiafoundationschool.github.io/PlantProject/Website/vitex/vitex.html"
+urls = ["https://columbiafoundationschool.github.io/PlantProject/Website/vitex/vitex.html","https://columbiafoundationschool.github.io/PlantProject/Website/neem/neem.html","https://columbiafoundationschool.github.io/PlantProject/Website/Acacia%20sensu%20lato/acacia.html","https://columbiafoundationschool.github.io/PlantProject/Website/ashwagandha/ashwagandha.html","https://columbiafoundationschool.github.io/PlantProject/Website/grapes/grapes.html","https://columbiafoundationschool.github.io/PlantProject/Website/jungleJalebi/jungleJalebi.html","https://columbiafoundationschool.github.io/PlantProject/Website/kewda/kewda.html","https://columbiafoundationschool.github.io/PlantProject/Website/rose/rose.html","https://columbiafoundationschool.github.io/PlantProject/Website/rubber/rubber.html","https://columbiafoundationschool.github.io/PlantProject/Website/aloevera/aloevera.html","https://columbiafoundationschool.github.io/PlantProject/Website/badelia/badelia.html","https://columbiafoundationschool.github.io/PlantProject/Website/bamboo/bamboo.html","https://columbiafoundationschool.github.io/PlantProject/Website/basil/basil.html","https://columbiafoundationschool.github.io/PlantProject/Website/ficus/ficus.html","https://columbiafoundationschool.github.io/PlantProject/Website/harShringar/harShingar.html","https://columbiafoundationschool.github.io/PlantProject/Website/hibiscus/hibiscus.html","https://columbiafoundationschool.github.io/PlantProject/Website/horseradish/horseradish.html","https://columbiafoundationschool.github.io/PlantProject/Website/hoyaBella/bella.html","https://columbiafoundationschool.github.io/PlantProject/Website/jasmine/jasmine.html","https://columbiafoundationschool.github.io/PlantProject/Website/Malatinea/malatinea.html","https://columbiafoundationschool.github.io/PlantProject/Website/Patharachatta/Patharchatta.html","https://columbiafoundationschool.github.io/PlantProject/Website/pomegranate/pomegranate.html","https://columbiafoundationschool.github.io/PlantProject/Website/saptaparni/saptaparni.html","https://columbiafoundationschool.github.io/PlantProject/Website/giloy/giloy.html","https://columbiafoundationschool.github.io/PlantProject/Website/tulsi/tulsi.html"]
 
-img = qrcode.make(url)
+names = ["vitex","neem","acacia","ashwagandha","grapes","JungleJalebi","kewda","rose","rubber","AloeVera","badelia","bamboo","basil","ficus","harshringar","hibiscus","horseradish","hoyabella","jasmine","malatinea","patharchatta","pomegranate","saptaparni","giloy","tulsi"]
 
-img.save('vitex.png')
+length = len(urls)
+
+for i in range(length):
+    img = qrcode.make(urls[i])
+    img.save(f"{names[i]}.png")
